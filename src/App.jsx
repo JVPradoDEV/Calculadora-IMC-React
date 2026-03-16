@@ -32,8 +32,9 @@ function App() {
             setResultadoTabela('obesidade-ex')
         }
         else {
-            (calculo = 0)
-            setResultadoTabela('')
+            (calculo === "NaN")
+            setResultado('Insira um número válido')
+            setResultadoTabela('padrao')
         }
     }
 
