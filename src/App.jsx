@@ -1,5 +1,5 @@
 import { use, useState } from 'react'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header/index.jsx'
 import Inputs from './components/Inputs/index.jsx'
 import Table from './components/Table/index.jsx'
